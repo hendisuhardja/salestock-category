@@ -1,0 +1,52 @@
+{
+  "name": "salestock_test",
+  "description": "salestock test.",
+  "version": "0.1.0",
+  "author": "Hendi",
+  "license": "",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hendisuhardja/salestock-category.git"
+  },
+  "scripts": {
+    "init": "npm install",
+    "start": "node server/server.js | bunyan -o short",
+    "test": "gulp test"
+  },
+  "dependencies": {
+    "bluebird": "^2.10.2",
+    "body-parser": "^1.14.1",
+    "bunyan": "^1.5.1",
+    "cors": "^2.7.1",
+    "create-error": "^0.3.1",
+    "express": "^4.13.3",
+    "join-js": "^0.4.0",
+    "knex": "^0.9.0",
+    "lodash": "^3.10.0",
+    "multiline": "^1.0.2",
+    "pg": "^4.4.3",
+    "pg-parse-float": "0.0.1"
+  },
+  "devDependencies": {
+    "chai": "^3.4.1",
+    "chai-datetime": "^1.4.0",
+    "chai-stats": "^0.3.0",
+    "chalk": "^1.1.1",
+    "cucumber": "^0.9.2",
+    "debug": "^2.2.0",
+    "del": "^2.1.0",
+    "glob": "^6.0.1",
+    "gulp": "^3.9.0",
+    "gulp-if": "^2.0.0",
+    "gulp-jscs": "^3.0.2",
+    "gulp-jshint": "^1.12.0",
+    "gulp-load-plugins": "^1.1.0",
+    "gulp-nodemon": "^2.0.4",
+    "gulp-print": "^2.0.1",
+    "gulp-task-listing": "^1.0.1",
+    "gulp-util": "^3.0.7",
+    "jshint-stylish": "^2.1.0",
+    "mustache": "^2.2.0",
+    "yargs": "^3.30.0"
+  }
+}
